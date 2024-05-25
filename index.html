@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tiles Villa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar Start -->
+      <nav
+        class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+      >
+        <a
+          href="#"
+          class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5"
+        >
+          <h1 class="m-0 text-primary">
+            <img
+              src="img/tilesvilla.jpg"
+              alt="Tiles Villa Logo"
+              class="logo-img"
+              style="width: 260px"
+            />
+          </h1>
+          <!-- 
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <a href="#">
+              <img
+                src="img/tilesvilla.jpg"
+                alt="Tiles Villa Logo"
+                class="logo-img"
+                style="width: 200px"
+              />
+            </a>
+          </div> -->
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">About</a>
+            <a href="#" class="nav-item nav-link">Products</a>
+            <a href="#" class="nav-item nav-link">Gallary</a>
+            <a href="#" class="nav-item nav-link">Projects</a>
+
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <a
+            href=""
+            class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"
+            >Take Action<i class="fa fa-arrow-right ms-3"></i
+          ></a>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Carousel Start -->
+      <div class="container-fluid p-0">
+        <div class="owl-carousel header-carousel position-relative">
+          <div class="owl-carousel-item position-relative">
+            <img
+              class="img-fluid"
+              src="https://images-cdn.ubuy.co.in/65dca3615f8e827ee72b69a2-brick-wallpaper-textured-removable-and.jpg"
+              alt=""
+              style="
+                max-width: 100%;
+                height: auto;
+                display: block;
+                object-fit: cover;
+                filter: none;
+                -webkit-filter: none;
+              "
+            />
+
+            <div
+              class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+              style="background: rgba(43, 57, 64, 0.5)"
+            >
+              <div class="container">
+                <div class="row justify-content-start">
+                  <div class="col-10 col-lg-8">
+                    <h1 class="display-3 text-white animated slideInDown mb-4">
+                      Elevate your place
+                    </h1>
+                    <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                      Discover premium tuff tiles at Tiles Villa – India's
+                      fastest-growing tile manufacturer, offering top-quality
+                      designs at wholesale rates!
+                    </p>
+                    <a
+                      href=""
+                      class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                      >Find your inner beauty</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel End -->
+
+      <!-- Search Start -->
+      <div
+        class="container-fluid bg-primary mb-5 wow fadeIn"
+        data-wow-delay="0.1s"
+        style="padding: 35px"
+      >
+        <div class="container">
+          <div class="row g-2">
+            <div class="col-md-10">
+              <div class="row g-2">
+                <div class="col-md-4">
+                  <input
+                    type="text"
+                    class="form-control border-0"
+                    placeholder="Search Tiles"
+                    style="padding: 10px; font-size: 16px"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <select
+                    class="form-select border-0"
+                    style="padding: 10px; font-size: 16px"
+                  >
+                    <option selected>Tile Type</option>
+                    <option value="1">Tuff Tiles</option>
+                    <option value="2">3D Tuff Tiles</option>
+                    <option value="3">GRC Jali</option>
+                    <option value="4">Front Elevation Tiles</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <select
+                    class="form-select border-0"
+                    style="padding: 10px; font-size: 16px"
+                  >
+                    <option selected>Location</option>
+                    <option value="1">Pehowa</option>
+                    <option value="2">Haryana</option>
+                    <option value="3">Other</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <button
+                class="btn btn-dark border-0 w-100"
+                style="padding: 10px; font-size: 16px"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Search End -->
+
+      <!-- Category Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            Explore By Category
+          </h1>
+          <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-cubes text-primary mb-4"></i>
+                <h6 class="mb-3">Tuff Tiles</h6>
+                <p class="mb-0">Premium Quality</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-cube text-primary mb-4"></i>
+                <h6 class="mb-3">3D Tuff Tiles</h6>
+                <p class="mb-0">Innovative Designs</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-columns text-primary mb-4"></i>
+                <h6 class="mb-3">GRC Jali</h6>
+                <p class="mb-0">Intricate Patterns</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-building text-primary mb-4"></i>
+                <h6 class="mb-3">Front Elevation Tiles</h6>
+                <p class="mb-0">Stylish Facades</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-th text-primary mb-4"></i>
+                <h6 class="mb-3">Floor Tiles</h6>
+                <p class="mb-0">Durable & Elegant</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-th-large text-primary mb-4"></i>
+                <h6 class="mb-3">Wall Tiles</h6>
+                <p class="mb-0">Versatile Designs</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-clipboard text-primary mb-4"></i>
+                <h6 class="mb-3">Roof Tiles</h6>
+                <p class="mb-0">Weather Resistant</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <a class="cat-item rounded p-4" href="">
+                <i class="fa fa-3x fa-leaf text-primary mb-4"></i>
+                <h6 class="mb-3">Eco-Friendly Tiles</h6>
+                <p class="mb-0">Sustainable Solutions</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Category End -->
+
+      <!-- About Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+              <div class="row g-0 about-bg rounded overflow-hidden">
+                <div class="col-6 text-start">
+                  <img
+                    class="img-fluid w-100"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREFP9T1iDyNbn88CvjRVDu7kaw2U3nubBEKQ&s"
+                    alt="Tile Image 1"
+                  />
+                </div>
+                <div class="col-6 text-start">
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                    alt="Tile Image 2"
+                    style="width: 85%; margin-top: 15%"
+                  />
+                </div>
+                <div class="col-6 text-end">
+                  <img
+                    class="img-fluid"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx2uWjAkuBhPGEM7uDcdwANNWCvO1MC-rBkA&s"
+                    alt="Tile Image 3"
+                    style="width: 85%"
+                  />
+                </div>
+                <div class="col-6 text-end">
+                  <img
+                    class="img-fluid w-100"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD0LfETKfy6l0So8-CgGlXcqF6-b-9IRQWTA&s"
+                    alt="Tile Image 4"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+              <h1 class="mb-4">
+                Leading Innovators in Tuff Tiles and Architectural Solutions
+              </h1>
+              <p class="mb-4">
+                Tiles Villa is dedicated to providing top-notch quality and a
+                wide variety of tuff tile designs. Our products are crafted to
+                meet the highest standards, ensuring durability and aesthetic
+                appeal.
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>High-Quality Tuff
+                Tiles
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Innovative 3D
+                Designs
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Durable and Stylish
+                GRC Jali
+              </p>
+              <p>
+                <i class="fa fa-check text-primary me-3"></i>Elegant Front
+                Elevation Tiles
+              </p>
+              <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+
+      <!-- Tiles Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            Discover Our Premium Tiles Collection
+          </h1>
+          <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.3s">
+            <ul
+              class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5"
+            >
+              <li class="nav-item">
+                <a
+                  class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active"
+                  data-bs-toggle="pill"
+                  href="#tab-1"
+                >
+                  <h6 class="mt-n1 mb-0">Featured</h6>
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane fade show p-0 active">
+                <!-- First Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">3D Tuff Tiles</h5>
+                        <p class="mb-0">
+                          Premium 3D tuff tile designs to enhance your space.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Second Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">GRC Jali</h5>
+                        <p class="mb-0">
+                          Exquisite GRC jali designs for stunning architectural
+                          details.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Third Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">Front Elevation Tiles</h5>
+                        <p class="mb-0">
+                          Elegant front elevation tiles to elevate your
+                          building's facade.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fourth Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">Mosaic Tiles</h5>
+                        <p class="mb-0">
+                          Beautiful mosaic tiles for creating intricate patterns
+                          in your spaces.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fifth Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">Terrazzo Tiles</h5>
+                        <p class="mb-0">
+                          Classic terrazzo tiles to add timeless elegance to
+                          your floors.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Sixth Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">Porcelain Tiles</h5>
+                        <p class="mb-0">
+                          Durable porcelain tiles for both indoor and outdoor
+                          applications.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Seventh Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">Ceramic Tiles</h5>
+                        <p class="mb-0">
+                          Versatile ceramic tiles suitable for various design
+                          styles and applications.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Eighth Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">Glass Tiles</h5>
+                        <p class="mb-0">
+                          Sleek glass tiles to add a touch of sophistication to
+                          your interiors.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Ninth Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">Marble Tiles</h5>
+                        <p class="mb-0">
+                          Luxurious marble tiles to add opulence to your living
+                          spaces.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Tenth Tile Item -->
+                <div class="tile-item p-4 mb-4">
+                  <div class="row g-4">
+                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid border rounded"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVPQNsPhBQZgitCO1QoOnHgooFV0IS-zwrA&s"
+                        alt="Tile Image"
+                        style="width: 150px; height: 150px"
+                      />
+                      <div class="text-start ps-4">
+                        <h5 class="mb-3">Wood-look Tiles</h5>
+                        <p class="mb-0">
+                          Wood-look tiles that combine the aesthetic of wood
+                          with the durability of tiles.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center"
+                    >
+                      <div class="d-flex mb-3">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Browse More Button -->
+                <a class="btn btn-primary py-3 px-5" href="#"
+                  >Browse More Tiles</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tiles End -->
+
+      <!-- Testimonial Start -->
+      <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+          <h1 class="text-center mb-5">What Our Customers Say!!!</h1>
+          <div class="owl-carousel testimonial-carousel">
+            <!-- First Testimonial -->
+            <div class="testimonial-item bg-light rounded p-4">
+              <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+              <p>
+                Tiles Villa provided us with top-notch quality tiles for our
+                home renovation project. The designs were exquisite, and the
+                durability is unmatched. Highly recommended!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4kz1m5za9pC1eH7O6eTj4_iifk3drr4H2vg&s"
+                  alt="Client Image"
+                  style="width: 50px; height: 50px"
+                />
+                <div class="ps-3">
+                  <h5 class="mb-1">Rajesh Kumar</h5>
+                  <small>Interior Designer</small>
+                </div>
+              </div>
+            </div>
+            <!-- Second Testimonial -->
+            <div class="testimonial-item bg-light rounded p-4">
+              <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+              <p>
+                We are extremely satisfied with the services provided by Tiles
+                Villa. The team was professional and guided us through the
+                selection process. The end result exceeded our expectations!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4kz1m5za9pC1eH7O6eTj4_iifk3drr4H2vg&s"
+                  alt="Client Image"
+                  style="width: 50px; height: 50px"
+                />
+                <div class="ps-3">
+                  <h5 class="mb-1">Ananya Singh</h5>
+                  <small>Architect</small>
+                </div>
+              </div>
+            </div>
+            <!-- Third Testimonial -->
+            <div class="testimonial-item bg-light rounded p-4">
+              <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+              <p>
+                Tiles Villa offers a wide range of tile options suitable for
+                every budget. We were able to find the perfect tiles for our
+                project without compromising on quality. Excellent service!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4kz1m5za9pC1eH7O6eTj4_iifk3drr4H2vg&s"
+                  alt="Client Image"
+                  style="width: 50px; height: 50px"
+                />
+                <div class="ps-3">
+                  <h5 class="mb-1">Sneha Patel</h5>
+                  <small>Homeowner</small>
+                </div>
+              </div>
+            </div>
+            <!-- Fourth Testimonial -->
+            <div class="testimonial-item bg-light rounded p-4">
+              <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+              <p>
+                Tiles Villa has been our go-to destination for high-quality
+                tiles. Their customer service is excellent, and they always go
+                above and beyond to ensure customer satisfaction. Great
+                experience!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4kz1m5za9pC1eH7O6eTj4_iifk3drr4H2vg&s"
+                  alt="Client Image"
+                  style="width: 50px; height: 50px"
+                />
+                <div class="ps-3">
+                  <h5 class="mb-1">Amit Sharma</h5>
+                  <small>Builder</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial End -->
+
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-white mb-4">About Us</h5>
+              <p class="text-white-50">
+                Tiles Villa is your premier destination for exquisite and
+                high-quality tiles in India. We offer a wide range of tiles to
+                enhance the beauty of your home or office space.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-white mb-4">Contact</h5>
+              <p class="mb-2">
+                <i class="fa fa-map-marker-alt me-3"></i>Tiles Villa Building,
+                East Ambala-Pehowa Rd, Kurukshetra, Haryana, India - 136128
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-phone-alt me-3"></i>+91-7206642426
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-envelope me-3"></i>contactus@tilesvilla.com
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-white mb-4">Follow Us</h5>
+              <p class="text-white-50">
+                Stay connected with us on social media for the latest updates,
+                offers, and design inspirations.
+              </p>
+              <div class="d-flex pt-2">
+                <a class="btn btn-outline-light btn-social me-2" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social me-2" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social me-2" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social me-2" href="#"
+                  ><i class="fab fa-pinterest"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-white mb-4">Newsletter</h5>
+              <p class="text-white-50">
+                Subscribe to our newsletter to receive updates on new tile
+                collections, promotions, and more.
+              </p>
+              <div class="position-relative mx-auto" style="max-width: 300px">
+                <input
+                  class="form-control bg-transparent w-100 py-3 ps-4 pe-5 mb-3"
+                  type="email"
+                  placeholder="Your email"
+                />
+                <button type="button" class="btn btn-primary w-100">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">Tiles Villa</a>, All
+                Right Reserved.
+
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                Designed By
+                <a class="border-bottom" href="https://htmlcodex.com"
+                  >HTML Codex</a
+                >
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <div class="footer-menu">
+                  <a href="#">Home</a>
+                  <a href="#">FAQs</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
